@@ -3,7 +3,7 @@ import separator from "../assets/images/separatorBlack 1.png"
 
 export default function () {
     return (
-        <section>
+        <section id="aboutMe">
   {/* IT BERRIES Hero Section */}
   <div className="relative h-auto md:h-96 w-full overflow-hidden">
     {/* Background Image */}

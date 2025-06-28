@@ -5,10 +5,11 @@ import books from "../assets/images/books.png";
 import events from "../assets/images/events.png";
 import game from "../assets/images/game.png";
 import portfolio from "../assets/images/portfolio1.png";
+import { Link } from "react-router";
 
 export default function project() {
   return (
-    <div>
+    <div id="project">
       <div className="relative h-80 w-full overflow-hidden  ">
         {/* Background image */}
         <img
@@ -34,42 +35,42 @@ export default function project() {
           <img src={hotels} alt="" className="h-54 w-90 rounded-2xl transition-all duration-300 transform hover:scale-110 hover:shadow-2xl" />
 
           <button className="absolute bottom-0 left-7 rounded-full text-sm bg-gray-900 w-[165px] h-[44px] text-gray-300">
-            <a href="">View Project</a>
+            <Link to="">View Project</Link>
           </button>
         </div>
         <div className="relative w-fit">
           <img src={agric} alt="" className="h-54 w-90 rounded-2xl transition-all duration-300 transform hover:scale-110 hover:shadow-2xl" />
 
           <button className="absolute bottom-0 left-7 rounded-full text-sm bg-gray-900 w-[165px] h-[44px] text-gray-300">
-            <a href="">View Project</a>
+            <Link to="https://echo-farms.netlify.app/">View Project</Link>
           </button>
         </div>
         <div className="relative w-fit">
           <img src={game} alt="" className="h-54 w-90 rounded-2xl transition-all duration-300 transform hover:scale-110 hover:shadow-2xl" />
 
           <button className="absolute bottom-0 left-7 rounded-full text-sm bg-gray-900 w-[165px] h-[44px] text-gray-300">
-            <a href="">View Project</a>
+            <Link to="https://game-pal.vercel.app/">View Project</Link>
           </button>
         </div>
         <div className="relative w-fit">
           <img src={books} alt="" className="h-54 w-90 rounded-2xl transition-all duration-300 transform hover:scale-110 hover:shadow-2xl" />
 
           <button className="absolute bottom-0 left-7 rounded-full text-sm bg-gray-900 w-[165px] h-[44px] text-gray-300">
-            <a href="">View Project</a>
+            <Link to="https://echo-stack.netlify.app/"></Link>
           </button>
         </div>
         <div className="relative w-fit">
           <img src={events} alt="" className="h-54 w-90 rounded-2xl transition-all duration-300 transform hover:scale-110 hover:shadow-2xl" />
 
           <button className="absolute bottom-0 left-7 rounded-full text-sm bg-gray-900 w-[165px] h-[44px] text-gray-300">
-            <a href="">View Project</a>
+            <Link to="https://event-hive-echo-stack.netlify.app/">View Project</Link>
           </button>
         </div>
         <div className="relative w-fit">
           <img src={portfolio} alt="" className="h-54 w-90 rounded-2xl transition-all duration-300 transform hover:scale-110 hover:shadow-2xl" />
 
           <button className="absolute bottom-0 left-7 rounded-full text-sm bg-gray-900 w-[165px] h-[44px] text-gray-300">
-            <a href="">View Project</a>
+            <Link to="">View Project</Link>
           </button>
         </div>
 

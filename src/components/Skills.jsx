@@ -10,7 +10,7 @@ import python from "../assets/images/python.png";
 
 export default function skills() {
     return(
-       <div className="bg-[#8F9DAA] w-full py-12">
+       <div id="skills" className="bg-[#8F9DAA] w-full py-12">
   {/* Skills Heading */}
   <div className="text-center">
     <h1 className="text-3xl md:text-4xl font-medium inline-block border-2 border-gray-700 px-6 py-2">

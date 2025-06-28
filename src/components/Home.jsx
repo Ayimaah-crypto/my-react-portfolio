@@ -17,7 +17,7 @@ export default function Home() {
   ></div>
 
   {/* Navbar */}
-  <div className="relative z-10">
+  <div className="relative z-50">
     <Navbar />
   </div>
 
@@ -49,7 +49,7 @@ export default function Home() {
         </div>
       </div>
       <button className=" bottom- left-7 rounded-full text-sm bg-gray-300 w-[165px] h-[44px] text-gray-900">
-            <a href="">View CV</a>
+            <a href="./Files/TheodoraAsareCV.pdf" download="TheodoraCV.pdf">View CV</a>
           </button>
     </div>
 
@@ -59,7 +59,7 @@ export default function Home() {
   <img
     src={Pic}
     alt="Profile"
-    className="w-[250px] sm:w-[300px] md:w-[350px] lg:w-[450px] xl:w-[500px] h-auto object-contain drop-shadow-xl"
+    className="w-[250px] pt-12 md:pt-0 sm:w-[300px] md:w-[350px] lg:w-[450px] xl:w-[500px] md:h-auto object-contain drop-shadow-xl"
   />
 </div>
 
